@@ -3,7 +3,7 @@ module.exports = function reverse(n) {
 	let newReverse;
 	if (reverseIt.endsWith("-")) {
 		let index = reverseIt.indexOf("-");
-		newReverse = "-" + reverseIt.slice(0, index);
+		newReverse = reverseIt.slice(0, index);
 	} else {
 		newReverse = reverseIt;
 	}
